@@ -1,0 +1,186 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .topHead2 {
+    display: flex;
+    justify-content: end;
+}
+@media (max-width:768) {
+    .topHead2 {
+        justify-content: end;
+    }
+}
+/* .Head2 {
+    width: 30%;
+
+} */ 
+.search-button  {
+    width: 80px;
+    height: 60%;
+    background-color: #0B0B45;
+    margin: 2px 0px 0px 2px;
+    padding: 6px 27px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.seesawsow {
+    background-color: #000033;
+    font-size: medium;
+    padding: padding 3px 0px;
+}
+.seesawsow ,.search-button {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: normal;
+}
+@keyframes example {
+    from {
+        transform: translateX(-1000%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+  }
+  .form-control {
+    animation-name: scale;
+    animation-duration: 4s;
+    animation-direction: normal;
+}
+@keyframes scale {
+    from {
+        transform: scaleX(-100);
+        opacity: 0;
+    }
+    to {
+        transform:  scaleX(1);
+        opacity: 1;
+    }
+  }
+  .row {
+    animation-name: rowwala;
+    animation-duration: 4s;
+    animation-direction: reverse;
+}
+@keyframes rowwala {
+    from {
+        transform: translateY(-100);
+        opacity: 0;
+    }
+    to {
+        transform:  translateY(1);
+        opacity: 1;
+    }
+  }
+
+.navbar {
+    color : white;
+    font-weight: bolder !important;
+
+}
+.forcolor a {
+             border-right: 2px solid white;
+             color: white;
+}
+.nav-link {
+     text-transform: capitalize;
+     color: white;
+     font-size: 14px;
+     font-weight: bold;
+     border-right: 1px solid white;
+}
+.ingrediants {
+    display: flex;
+    background-color: #333333;
+}
+.styles ul li {
+    list-style: none;
+}
+.nav-item .nav-link.meeting-minutes {
+    white-space: nowrap; /* Prevent breaking into two lines */
+}
+.heroSection img {
+    height: 200px;
+}
+.scrollup h1 {
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+/* .chancellortittle {
+    border-bottom: 1px solid black;
+} */
+.chancellortittle h3 {
+    font-size: 14px;
+    margin-bottom: -1px;
+    text-decoration: underline;
+}
+.news {
+    border-bottom: 1px solid black;
+}
+.news h1 {
+    font-size: 14px;
+}
+.message p {
+    font-size: 10px;
+}
+.chancellorpicture img {
+    height: 150px;
+    width: 100%;
+}
+.quaid p{
+ font-weight: bold;
+ font-size: 14px;
+}
+.will {
+   font-size: small;
+   font-weight: bold;
+   color: rgb(135, 124, 124);
+}
+.underline {
+    border-bottom: 1px solid black;
+}
+.underlineButton button {
+    max-width: 100%;
+    min-width: 100%;
+    padding: 5px;
+    background-color: #000033;
+    font-size: 14px;
+}
+
+.footerParent {
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* footer .links {
+   
+} */
+/*footer .links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer .links a:hover {
+    text-decoration: underline;
+}
+footer .copyright {
+    text-align: right;
+    flex: 1;
+}
+    */
+footer {
+    background-color: #660000;
+    color: #fff;
+    padding: 20px 0;
+} 
+footer .links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.textcenter p {
+    text-align: center;
+}
